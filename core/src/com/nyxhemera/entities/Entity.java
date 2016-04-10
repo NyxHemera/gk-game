@@ -27,7 +27,7 @@ public abstract class Entity {
 	}
 	
 	public boolean[] frameCollision() {
-		boolean[] collArr = null;
+		boolean[] collArr = new boolean[4];
 		// Check frame collision
 		
 		// Top, Right, Bottom, Left
